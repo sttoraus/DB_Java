@@ -50,6 +50,7 @@ public class Main {
 		user.setPassword(password);
 		if (database.checkCredentials(user)) {
 			database.setUserWarenkorb(user);
+			user.setId(database.getUserId(user));
 			user.setLogin(true);
 			System.out.println("Login erfolgreich");
 		} else {
