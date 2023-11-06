@@ -27,7 +27,7 @@ public class Main {
 	        	}
 	        	break;
 	        case 5:
-	        	repeat=false;;
+	        	repeat=false;
 			}
 		}
 		System.out.println("Ende");
